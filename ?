@@ -1,0 +1,9 @@
+local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/Destipple/HWIDWARE/main/HWIDXDD"))()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+print(HWIDTable)
+for i,v in pairs(HWIDTable) do
+    if v == HWID then
+        print("Hardware ID passed.")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Destipple/HWIDWARE/main/main%20script"))()
+    end
+end
