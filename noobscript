@@ -17,10 +17,10 @@ if game.PlaceId == 2483973525 then
     --玩家功能(Player)
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
-    PlayerSection:NewSlider("WalkSpeed", "改变你的速度让你变成快男", 250, 16, function(v)
+    PlayerSection:NewSlider("WalkSpeed", "改变你的速度让你变成快男", 130, 16, function(v)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
     end)
-    PlayerSection:NewSlider("JumpPower", "改变你的跳跃高度让你变成超人", 250, 50, function(v)
+    PlayerSection:NewSlider("JumpPower", "改变你的跳跃高度让你变成超人", 150, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
 end
