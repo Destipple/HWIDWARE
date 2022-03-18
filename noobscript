@@ -14,12 +14,9 @@ if game.PlaceId == 2483973525 then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1950.08643, 816.593018, -1078.24023, -0.0175437052, -1.40156231e-09, 0.999846101, 1.09584704e-07, 1, 3.32459571e-09, -0.999846101, 1.09626164e-07, -0.0175437052)
     end)
     MainSection:NewButton("笛子点1", "TP笛子点1", function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2851.80176, 1048.18994, -1025.32007, -0.596411407, -1.17880913e-10, -0.802678943, 7.64117747e-09, 1, -5.82445381e-09, 0.802678943, -9.60718261e-09, -0.596411407)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-774.302002, 717.994446, -178.391113, 0.995557427, -0.000304967223, -0.0941560492, -5.44690047e-05, 0.999992728, -0.00381485885, 0.094156526, 0.00380303967, 0.995550156)
     end)
-    MainSection:NewButton("笛子点2", "TP笛子点2", function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.1608353, 748.993469, 87.1063919, -0.999973893, 1.5871352e-09, -0.00722755631, 1.59846347e-09, 1, -1.56158919e-09, 0.00722755631, -1.57310143e-09, -0.999973893)
-    end)
-        
+       
     --玩家功能(Player)
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
